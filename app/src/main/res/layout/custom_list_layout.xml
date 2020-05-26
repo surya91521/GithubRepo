@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:id="@+id/image" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="20dp">
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#c60a0a"
+            android:text="name"/>
+
+        <TextView
+            android:id="@+id/txtFull"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#101e99"
+            android:text="Full Name"/>
+
+        <TextView
+            android:id="@+id/txtCount"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#23074d"
+            android:text="Count"/>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
